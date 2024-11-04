@@ -263,7 +263,7 @@ nav ul li a {
 
 .header-content .list-social li i {
   color: #070225;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 
@@ -331,7 +331,8 @@ nav ul li a {
 
 #about .div-img-bg .about-img img {
   width: 100%;
-  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.2);
+
   margin-top: -60px;
   margin-left: 40px;
   height: 400px;
@@ -643,10 +644,17 @@ margin-right: 8px; /* Spacing between icon and text */
 font-size: 18px;
 }
 
-/* Hover effect */
+  
+.container {
+  color: #292929;
+}
+.job-title {
+  color: #333131;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .btn:hover {
-background-color: #012f08; /* Slightly darker green on hover */
-transform: translateY(-2px); /* Lift effect */
+  background-color: #444444;
 }
 .timeline-heading{
 color: #292929;

@@ -17,6 +17,7 @@
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Libraries CSS Files -->
+   <link href="lib/animate/animate.css" rel="stylesheet" type="text/css">
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/hover/hover.min.css" rel="stylesheet">
@@ -46,6 +47,7 @@
           <li><a href="#about" class="smoothScroll">About</a></li>
           <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
           <li><a href="#education" class="smoothScroll">Education</a></li>
+          <li><a href="#education" class="smoothScroll">Skills</a></li>
           <li><a href="#contact" class="smoothScroll">Contact</a></li>
         </ul>
       </div>
@@ -76,38 +78,36 @@
 
         <div class="col-lg-4 ">
           <div class="div-img-bg">
-            <div class="about-img">
+            <div class="about-img wow fadeInUp">
               <img src="images/nafi.jpg" class="img-responsive" alt="me">
             </div>
           </div>
         </div>
 
-        <div class="col-lg-7">
-          <div class=" offset-lg-1">
-            <h1 style="color:#292929;">Md. Nafijur Rahaman</h1>
-            <h5 style="color: #333131;" class=" mb-3 mt-3">Full Stack Developer</h5>
-            <p class="text-muted">As a Skilled Full Stack Developer with expertise across both front-end and back-end technologies. I design and implement dynamic and responsive web applications using a range of tools and frameworks, including HTML, CSS, Javascript, and back-end technologies like Django. With a strong foundation in database management and cloud service.</p>
+    
+      
+        <div id="about_me" class="col-lg-7 container wow fadeInRight">
+          <div class="offset-lg-1">
+            <h1>Md. Nafijur Rahaman</h1>
+            <h5 class="job-title">Full Stack Developer</h5>
+            <p class="description">As a skilled Full Stack Developer with expertise across both front-end and back-end technologies, I design and implement dynamic and responsive web applications using a range of tools and frameworks, including HTML, CSS, JavaScript, and back-end technologies like Django. I also have a strong foundation in database management and cloud services.</p>
             <ul class="theme-list">
-              <li style="color: #534f4f;"><b style="color: #292929; font-weight:550">From:</b> Dhaka, Bangladesh</li>
-              <li style="color: #534f4f;"><b style="color: #292929;font-weight:550 ">Lives In:</b> Mirpur, Dhaka</li>
-              <li style="color: #534f4f;"><b style="color: #292929;font-weight:550 ">Age:</b> 21</li>
-              <li style="color: #534f4f;"><b style="color: #292929;font-weight:550 ">Gender:</b> Male</li>
+              <li><b>From:</b> Dhaka, Bangladesh</li>
+              <li><b>Lives In:</b> Mirpur, Dhaka</li>
+              <li><b>Age:</b> 21</li>
+              <li><b>Gender:</b> Male</li>
             </ul>
-      </head>
-      <body>
-          <a  href="./Profile.pdf" download="Nafijur_Rahaman.pdf" class="download-link">
+            <a href="./Profile.pdf" download="Nafijur_Rahaman.pdf">
               <button class="btn">
-                  <i class="fas fa-download"></i> Download CV
+                <i class="fas fa-download"></i> Download CV
               </button>
-          </a>
-          
+            </a>
           </div>
-
         </div>
       </div>
     </div>
   </div>
- 
+
 
 
   <!-- services -->
@@ -156,7 +156,7 @@
   <div class="vg-page">
     <div id="education" class="container pt-5">
         <div class="row">
-            <div class="section-title col-md-6">
+            <div class="section-title col-md-6 wow fadeInRight">
                 <h2>Education:</h2>
                 <ul class="timeline mt-4">
                   <li>
@@ -190,7 +190,9 @@
               </ul>
               
             </div>
-            <div class=" section-title col-md-6 ms-auto">
+
+
+            <div class=" section-title col-md-6 ms-auto wow fadeInRight" data-wow-delay="200ms">
               <h2>SKILLS:</h2>
               <div class="skills-section mt-5">
                   <!-- Row 1: Frontend and Backend Skills -->
@@ -249,7 +251,7 @@
 <!-- portfolio -->
 <div id="portfolio" class="text-center paddsection">
   <div class="container">
-    <div class="section-title text-center">
+    <div class="section-title text-center wow fadeInUp">
       <h2>My Full Stack Projects</h2>
     </div>
   </div>
@@ -260,12 +262,14 @@
 
         <div class="portfolio-container">
 
-          <div class=" col-lg-6 col-md-6 portfolio-thumbnail">
-            <a target="_blank" href="https://tuitionmedia.netlify.app/">
-              <img src="./images/tuition_project.png" alt="img" class="w-full h-auto object-cover">
-              <h3 class="project-title mt-5">Tuition Media</h3>
-              <p class="project-description">A platform for students and tutors to connect and manage tuition sessions.</p>
-              <div class="project-links mt-2">
+          <div class=" col-lg-6 col-md-6 portfolio-thumbnail ">
+            <div class="image wow zoomIn">
+              <a target="_blank" href="https://tuitionmedia.netlify.app/">
+                <img src="./images/tuition_project.png" alt="img" class="w-full h-auto object-cover"> </a>
+            </div>
+              <h3 class="project-title mt-5 wow fadeInUp">Tuition Media</h3>
+              <p class="project-description wow fadeInUp">A platform for students and tutors to connect and manage tuition sessions.</p>
+              <div class="project-links mt-2 wow fadeInUp">
                 <a target="_blank" target="_blank" href="https://tuitionmedia.netlify.app/" class="text-blue-500 hover:text-blue-700" title="Live Frontend">
                   <i class="fas fa-external-link-alt fa-lg"></i> <!-- Increased size -->
                 </a>
@@ -280,11 +284,13 @@
           </div>
 
           <div class="col-lg-6 col-md-6 portfolio-thumbnail">
-            <a target="_blank" href="https://donation-platform.netlify.app/">
-              <img src="./images/donation_project.png" alt="img" class="w-full h-auto object-cover">
-              <h3 class="project-title mt-5">Donation Platform</h3>
-              <p class="project-description">An online platform designed for charity donations and fundraising efforts.</p>
-              <div class="project-links mt-2">
+              <div class="image wow zoomIn">
+                <a target="_blank" href="https://donation-platform.netlify.app/">
+                  <img src="./images/donation_project.png" alt="img" class="w-full h-auto object-cover"> </a>
+              </div>
+              <h3 class="project-title mt-5 wow fadeInUp">Donation Platform</h3>
+              <p class="project-description wow fadeInUp">An online platform designed for charity donations and fundraising efforts.</p>
+              <div class="project-links mt-2 wow fadeInUp">
                 <a target="_blank" href="https://donation-platform.netlify.app/" class="text-blue-500 hover:text-blue-700" title="Live Frontend">
                   <i class="fas fa-external-link-alt fa-lg"></i> <!-- Increased size -->
                 </a>
@@ -317,12 +323,12 @@
 
         <div class="col-lg-6">
           <div class="contact-contact">
-            <h2 class="mb-30">GET IN TOUCH</h2>
+            <h2 class="mb-30 wow fadeInUp">GET IN TOUCH</h2>
             <ul class="contact-details">
-              <li style="color: #333;"><span>14 No. Street, Mirpur-2</span></li>
-              <li style="color: #333;" ><span>Dhaka, Bangladesh</span></li>
-              <li style="color: #333;" ><span>+88 01626681291</span></li>
-              <li style="color: #333;" ><span><a href="mailto:tanjidnafis@gmail.com">tanjidnafis@gmail.com</a></span></li>
+              <li class="wow fadeInUp" style="color: #333;"><span>14 No. Street, Mirpur-2</span></li>
+              <li class="wow fadeInUp" style="color: #333;" ><span>Dhaka, Bangladesh</span></li>
+              <li class="wow fadeInUp" style="color: #333;" ><span>+88 01626681291</span></li>
+              <li class="wow fadeInUp" style="color: #333;" ><span><a href="mailto:tanjidnafis@gmail.com">tanjidnafis@gmail.com</a></span></li>
             </ul>
           </div>
         </div>
@@ -333,30 +339,26 @@
             <div class="row">
           
               <div class="col-lg-6">
-                <div class="form-group contact-block1">
+                <div class="form-group contact-block1 wow fadeInUp">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required />
-                  <div class="validation"></div>
                 </div>
               </div>
           
               <div class="col-lg-6">
-                <div class="form-group">
+                <div class="form-group wow fadeInUp">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required />
-                  <div class="validation"></div>
                 </div>
               </div>
           
               <div class="col-lg-12">
-                <div class="form-group">
+                <div class="form-group wow fadeInUp">
                   <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required />
-                  <div class="validation"></div>
                 </div>
               </div>
           
               <div class="col-lg-12">
-                <div class="form-group">
+                <div class="form-group wow fadeInUp">
                   <textarea class="form-control" name="message" rows="12" placeholder="Message" required></textarea>
-                  <div class="validation"></div>
                 </div>
               </div>
               <div class="col-lg-12">
@@ -398,8 +400,10 @@
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="lib/typed/typed.js"></script>
+  <script src="./lib/wow/wow.min.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/animate/animate.css"></script>
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
 

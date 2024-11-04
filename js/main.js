@@ -4,7 +4,7 @@ $(document).ready(function() {
   'use strict';
 
 
-
+  new WOW().init();
 
   $(document).on("scroll", onScroll);
 
