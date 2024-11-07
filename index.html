@@ -26,11 +26,7 @@
   <!-- Responsive css -->
   <link href="css/responsive.css" rel="stylesheet">
 </head>
-<body>
-<style>
-
-</style>
-
+<body
   <!-- navbar -->
   <nav id="main-nav">
     <div class="row">
@@ -247,9 +243,9 @@
     </div>
 </div>
 
-
-<!-- portfolio -->
-<div id="portfolio" class="text-center paddsection">
+<!-- project -->
+  
+<div id="portfolio" class="text-center ">
   <div class="container">
     <div class="section-title text-center wow fadeInUp">
       <h2>My Full Stack Projects</h2>
@@ -258,50 +254,63 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
-
-        <div class="portfolio-container">
-
-          <div class=" col-lg-6 col-md-6 portfolio-thumbnail ">
-            <div class="image wow zoomIn">
-              <a target="_blank" href="https://tuitionmedia.netlify.app/">
-                <img src="./images/tuition_project.png" alt="img" class="w-full h-auto object-cover"> </a>
-            </div>
-              <h3 class="project-title mt-5 wow fadeInUp">Tuition Media</h3>
-              <p class="project-description wow fadeInUp">A platform for students and tutors to connect and manage tuition sessions.</p>
-              <div class="project-links mt-2 wow fadeInUp">
-                <a target="_blank" target="_blank" href="https://tuitionmedia.netlify.app/" class="text-blue-500 hover:text-blue-700" title="Live Frontend">
-                  <i class="fas fa-external-link-alt fa-lg"></i> <!-- Increased size -->
-                </a>
-                <a href="https://github.com/nafijur-rahaman/Tution-Media-Platform-Backend-" class="text-gray-700 hover:text-gray-900 mx-2" title="GitHub Repository">
-                  <i class="fab fa-github fa-lg"></i> <!-- Increased size -->
-                </a>
-                <a target="_blank" href="https://tution-media-platform-backend.vercel.app/" class="text-blue-500 hover:text-blue-700" title="Live Backend">
-                  <i class="fas fa-server fa-lg"></i> <!-- Increased size -->
-                </a>
-              </div>
+      <!-- First Project Card -->
+      <div class="col-md-6">
+        <div class="card shadow-lg">
+          <div class="image wow zoomIn">
+            <a target="_blank" href="https://tuitionmedia.netlify.app/">
+              <img src="./images/tuition_project.png" alt="Tuition Media" class="card-img-top">
             </a>
           </div>
+          <div class="card-body">
+            <h3 class="project-title mt-3 wow fadeInUp">Tuition Media</h3>
+            <p class="project-description wow fadeInUp">A platform for students and tutors to connect and manage tuition sessions.</p>
+            <div class="project-links mt-3 wow fadeInUp">
+              <a target="_blank" href="https://tuitionmedia.netlify.app/" class="btn btn-skill btn-sm m-1" title="Live Demo">
+                Live Demo
+              </a>
+              <a href="https://github.com/nafijur-rahaman/Tution-Media-Platform-Backend-" class="btn btn-skill btn-sm m-1" title="GitHub Frontend Repo">
+                GitHub Frontend Repo
+              </a>
+              <a href="https://github.com/nafijur-rahaman/Donation-platofrm-frontend" class="btn btn-skill btn-sm m-1" title="GitHub Backend Repo">
+                GitHub Backend Repo
+              </a>
+            </div>
+            <!-- <a href="#" class="btn btn-skill btn-sm mt-3" title="View Project Details">
+              <span class="font-weight-bold">Details</span>
+            </a> -->
+          </div>
+          
+        </div>
+      </div>
 
-          <div class="col-lg-6 col-md-6 portfolio-thumbnail">
-              <div class="image wow zoomIn">
-                <a target="_blank" href="https://donation-platform.netlify.app/">
-                  <img src="./images/donation_project.png" alt="img" class="w-full h-auto object-cover"> </a>
-              </div>
-              <h3 class="project-title mt-5 wow fadeInUp">Donation Platform</h3>
-              <p class="project-description wow fadeInUp">An online platform designed for charity donations and fundraising efforts.</p>
-              <div class="project-links mt-2 wow fadeInUp">
-                <a target="_blank" href="https://donation-platform.netlify.app/" class="text-blue-500 hover:text-blue-700" title="Live Frontend">
-                  <i class="fas fa-external-link-alt fa-lg"></i> <!-- Increased size -->
-                </a>
-                <a target="_blank" href="https://github.com/nafijur-rahaman/Donation-platform-backend" class="text-gray-700 hover:text-gray-900 mx-2" title="GitHub Repository">
-                  <i class="fab fa-github fa-lg"></i> <!-- Increased size -->
-                </a>
-                <a target="_blank" href="https://donation-platform-backend-psi.vercel.app/" class="text-blue-500 hover:text-blue-700" title="Live Backend">
-                  <i class="fas fa-server fa-lg"></i> <!-- Increased size -->
-                </a>
-              </div>
+      <!-- Second Project Card -->
+      <div class="col-md-6">
+        <div class="card shadow-lg">
+          <div class="image wow zoomIn">
+            <a target="_blank" href="https://donation-platform.netlify.app/">
+              <img src="./images/donation_project.png" alt="Donation Platform" class="card-img-top">
             </a>
+          </div>
+          <div class="card-body">
+            <h3 class="project-title mt-3 wow fadeInUp">Donation Platform</h3>
+            <p class="project-description wow fadeInUp">An online platform designed for charity donations and fundraising efforts.</p>
+            <div class="project-links mt-3 wow fadeInUp">
+              <a target="_blank" href="https://donation-platform.netlify.app/" class="btn btn-skill btn-sm m-1" title="Live Demo">
+               Live Demo
+              </a>
+              
+              <a target="_blank" href="https://github.com/nafijur-rahaman/Donation-platform-backend" class="btn btn-skill btn-sm m-1" title="GitHub Frontend Repo">
+                GitHub Frontend Repo
+              </a>
+              
+              <a href="https://github.com/nafijur-rahaman/Tution-Media-Platform-Backend-" class="btn btn-skill btn-sm m-1" title="GitHub Backend Repo">
+                GitHub Backend Repo
+              </a>
+            </div>
+            <!-- <a href="#" class="text-primary" title="View Project Details">
+              <button class="btn btn-skill mt-3"><span class="font-weight-bold">Details</span></button>
+            </a> -->
           </div>
         </div>
       </div>
@@ -309,10 +318,6 @@
   </div>
 
 </div>
-
-
-
-
 
 
 <!--contact -->
@@ -402,7 +407,6 @@
   <script src="lib/typed/typed.js"></script>
   <script src="./lib/wow/wow.min.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
   <script src="lib/animate/animate.css"></script>
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
