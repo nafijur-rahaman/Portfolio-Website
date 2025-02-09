@@ -231,7 +231,9 @@ nav ul li a {
 #header {
   background: url("../images/nafi2.jpg") no-repeat center center;
   background-size: cover;
-  height: 120vh; /* Consider using a max-height for better responsiveness */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 135vh; /* Consider using a max-height for better responsiveness */
   width: 100%;
   padding-top: 100px; /* Adjust this value as needed */
   box-sizing: border-box; /* Ensures padding doesn’t add extra height */
@@ -247,7 +249,7 @@ nav ul li a {
 }
 
 .header-content p {
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: 5px;
   margin-top: 0;
   margin-bottom: 10px;
@@ -266,6 +268,9 @@ nav ul li a {
   font-size: 25px;
 }
 
+.header-content .list-social li i:hover {
+  color: #9a7eb8;
+}
 
 @media (max-width: 768px) {
   #header {
